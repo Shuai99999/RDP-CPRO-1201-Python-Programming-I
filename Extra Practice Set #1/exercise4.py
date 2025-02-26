@@ -12,7 +12,6 @@ def find_least_difference(numbers):
     if len(numbers) < 2:
         return "Not enough elements to compare."
 
-    # Set an initial large value
     min_diff = float("inf")
 
     for i in range(len(numbers) - 1):
@@ -23,8 +22,6 @@ def find_least_difference(numbers):
     return min_diff
 
 
-# Find the least difference
 least_difference = find_least_difference(num_list)
 
-# Display the result
 print(f"Least difference between elements: {least_difference}")

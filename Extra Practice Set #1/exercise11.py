@@ -21,7 +21,7 @@ def calculate_median(numbers):
 
     if length % 2 == 0:
         return (numbers[mid - 1] + numbers[mid]) / 2
-    else:  # Odd length
+    else:
         return round(numbers[mid], 2)
 
 
@@ -71,14 +71,12 @@ def calculate_standard_deviation(numbers):
     return round(variance**0.5, 2)
 
 
-# Calculate statistics manually
 average = calculate_average(num_list)
 median = calculate_median(num_list)
 mode = calculate_mode(num_list)
 range_value = calculate_range(num_list)
 std_dev = calculate_standard_deviation(num_list)
 
-# Display results
 print(f"Average: {average}")
 print(f"Median: {median}")
 print(f"Mode: {mode}")

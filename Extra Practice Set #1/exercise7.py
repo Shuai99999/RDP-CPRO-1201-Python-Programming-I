@@ -2,7 +2,10 @@ factorial = 1
 isInt = False
 
 while not isInt:
-    num = input("Please input a whole number: ")
+    num = input("Please input a positive whole number: ")
+    while num < 0:
+        num = int(input("The number should be positive: "))
+
     try:
         int(num)
         isInt = True
