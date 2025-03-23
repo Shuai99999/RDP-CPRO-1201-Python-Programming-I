@@ -1,3 +1,2 @@
-a = 5000
-b = 9
-print(a % b)
+s = "Hello, World!"
+print(s[7:12])

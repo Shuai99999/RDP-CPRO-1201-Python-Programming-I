@@ -1,18 +1,5 @@
-def is_prime(num):
-    if num < 1:
-        print("Please input a number > 1")
-        return False
-
-    if num % 1 != 0:
-        print("Please input an integer")
-        return False
-
-    for i in range(2, num):
-        if num % i == 0:
-            print("not")
-            return False
-        print("yes")
-        return True
+def square_of_odds(nums):
+    return [x**2 for x in nums if x % 2 != 0]
 
 
-print(is_prime(50))
+print(square_of_odds([1, 2, 3, 4, 5]))
