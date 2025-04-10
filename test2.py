@@ -1,2 +1,2 @@
-s = "Hello, World!"
-print(s[7:12])
+for i in range(1, 10):
+    print(i)
