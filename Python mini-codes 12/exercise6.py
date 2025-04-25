@@ -12,4 +12,4 @@ def pascal_triangle(n):
         print(row_str.center(width))
 
 
-pascal_triangle(6)
+pascal_triangle(5)
